@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * all-image controller
+ * blog controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::all-image.all-image');
+module.exports = createCoreController('api::blog.blog');

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * all-image router
+ * blog router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::all-image.all-image');
+module.exports = createCoreRouter('api::blog.blog');
